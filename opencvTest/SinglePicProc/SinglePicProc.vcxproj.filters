@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{1d8c8b89-b7ef-456a-b2a7-323ece9f0867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\opencv">
+      <UniqueIdentifier>{f33c62e2-5f0f-41bf-a8ef-ab2a727f4387}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D:\OpenCV2.2\lib\opencv_gpu220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_contrib220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_legacy220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_features2d220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_objdetect220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_calib3d220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_highgui220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_ffmpeg220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_video220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_imgproc220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_ml220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_flann220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_core220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

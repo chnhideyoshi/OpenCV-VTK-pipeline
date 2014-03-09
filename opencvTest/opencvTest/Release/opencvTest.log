@@ -1,0 +1,65 @@
+﻿Build started 2014/2/28 18:44:12.
+     1>Project "F:\workspacecsharp\C++Proj\opencvTest\opencvTest\opencvTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\opencvTest.unsuccessfulbuild".
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\OpenCV2.2\include /I"D:\VTKproj\CImg-1.5.0" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Common" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/VolumeRendering" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Rendering" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Charts" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Chemistry" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkalglib" /I"D:/VTKproj/vtk-5.10.0/VTK/Infovis" /I"D:/VTKproj/vtk-5.10.0/VTK/Geovis" /I"D:/VTKproj/vtk-5.10.0/VTK/Views" /I"D:/VTKproj/vtk-5.10.0/VTK/VolumeRendering" /I"D:/VTKproj/vtk-5.10.0/VTK/Hybrid" /I"D:/VTKproj/vtk-5.10.0/VTK/Widgets" /I"D:/VTKproj/vtk-5.10.0/VTK/Rendering" /I"D:/VTKproj/vtk-5.10.0/VTK/Charts" /I"D:/VTKproj/vtk-5.10.0/VTK/Chemistry" /I"D:/VTKproj/vtk-5.10.0/VTK/Rendering/Testing/Cxx" /I"D:/VTKproj/vtk-5.10.0/VTK/IO" /I"D:/VTKproj/vtk-5.10.0/VTK/Imaging" /I"D:/VTKproj/vtk-5.10.0/VTK/Graphics" /I"D:/VTKproj/vtk-5.10.0/VTK/GenericFiltering" /I"D:/VTKproj/vtk-5.10.0/VTK/Filtering" /I"D:/VTKproj/vtk-5.10.0/VTK/Common" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities" /I"D:/VTKproj/vtk-5.10.0/VTK/Common/Testing/Cxx" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtknetcdf/include" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtknetcdf/include" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtklibproj4" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtklibproj4" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/DICOMParser" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/DICOMParser" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkfreetype/include" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkfreetype/include" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/LSDyna" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/LSDyna" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/MaterialLibrary" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/MaterialLibrary" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkmetaio" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkmetaio" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/verdict" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/verdict" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkhdf5" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkhdf5" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkhdf5/src" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkhdf5/src" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkhdf5/hl/src" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkhdf5/hl/src" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/utf8/source" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkalglib" /I"D:/VTKproj/vtk-5.10.0/VTK/Utilities/ftgl/src" /I"D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/ftgl" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>D:\VTKproj\CImg-1.5.0\CImg.h(116): warning C4005: '_CRT_SECURE_NO_DEPRECATE' : macro redefinition
+                 D:\OpenCV2.2\include\opencv2/core/types_c.h(47) : see previous definition of '_CRT_SECURE_NO_DEPRECATE'
+     1>main.cpp(221): warning C4101: 'view' : unreferenced local variable
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\workspacecsharp\C++Proj\opencvTest\Release\opencvTest.exe" /NOLOGO opencv_core220.lib opencv_highgui220.lib opencv_video220.lib opencv_ml220.lib opencv_legacy220.lib opencv_imgproc220.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\opencvTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\workspacecsharp\C++Proj\opencvTest\Release\opencvTest.pdb" /STACK:"10000000" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\workspacecsharp\C++Proj\opencvTest\Release\opencvTest.lib" /MACHINE:X86 Release\imageProcess.obj
+         Release\main.obj
+         Release\mainTest.obj
+         D:\OpenCV2.2\lib\opencv_calib3d220d.lib
+         D:\OpenCV2.2\lib\opencv_contrib220d.lib
+         D:\OpenCV2.2\lib\opencv_core220d.lib
+         D:\OpenCV2.2\lib\opencv_features2d220d.lib
+         D:\OpenCV2.2\lib\opencv_ffmpeg220d.lib
+         D:\OpenCV2.2\lib\opencv_flann220d.lib
+         D:\OpenCV2.2\lib\opencv_gpu220d.lib
+         D:\OpenCV2.2\lib\opencv_highgui220d.lib
+         D:\OpenCV2.2\lib\opencv_imgproc220d.lib
+         D:\OpenCV2.2\lib\opencv_legacy220d.lib
+         D:\OpenCV2.2\lib\opencv_ml220d.lib
+         D:\OpenCV2.2\lib\opencv_objdetect220d.lib
+         D:\OpenCV2.2\lib\opencv_video220d.lib
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\LSDyna.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkalglib.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkCommon.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkDICOMParser.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkFiltering.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkGenericFiltering.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkGeovis.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkGraphics.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkhdf5.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkHybrid.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkImaging.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkInfovis.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkIO.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkjpeg.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkmyCommon.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkmyImaging.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkmyUnsorted.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkNetCDF.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkpng.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkproj4.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkRendering.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkViews.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkVolumeRendering.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkWidgets.lib"
+         "D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkzlib.lib"
+         Generating code
+         Finished generating code
+         opencvTest.vcxproj -> F:\workspacecsharp\C++Proj\opencvTest\Release\opencvTest.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\workspacecsharp\C++Proj\opencvTest\Release\opencvTest.exe;#1" /manifest Release\opencvTest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\opencvTest.unsuccessfulbuild".
+         Touching "Release\opencvTest.lastbuildstate".
+     1>Done Building Project "F:\workspacecsharp\C++Proj\opencvTest\opencvTest\opencvTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.10

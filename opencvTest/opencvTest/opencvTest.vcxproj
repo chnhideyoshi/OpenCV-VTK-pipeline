@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D28B1C5C-11B8-48B7-ACEB-5AB179CAC0ED}</ProjectGuid>
+    <RootNamespace>opencvTest</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\OpenCV2.2\include\opencv;D:\OpenCV2.2\include\opencv2;D:\OpenCV2.2\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>D:\OpenCV2.2\myBin\lib\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\OpenCV2.2\include\opencv;D:\OpenCV2.2\include\opencv2;D:\OpenCV2.2\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>D:\OpenCV2.2\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\OpenCV2.2\include;D:\VTKproj\CImg-1.5.0;D:/VTKproj/vtk-5.10.0/VTK/vs2010;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Common;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities;D:/VTKproj/vtk-5.10.0/VTK/vs2010/VolumeRendering;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Rendering;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Charts;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Chemistry;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkalglib;D:/VTKproj/vtk-5.10.0/VTK/Infovis;D:/VTKproj/vtk-5.10.0/VTK/Geovis;D:/VTKproj/vtk-5.10.0/VTK/Views;D:/VTKproj/vtk-5.10.0/VTK/VolumeRendering;D:/VTKproj/vtk-5.10.0/VTK/Hybrid;D:/VTKproj/vtk-5.10.0/VTK/Widgets;D:/VTKproj/vtk-5.10.0/VTK/Rendering;D:/VTKproj/vtk-5.10.0/VTK/Charts;D:/VTKproj/vtk-5.10.0/VTK/Chemistry;D:/VTKproj/vtk-5.10.0/VTK/Rendering/Testing/Cxx;D:/VTKproj/vtk-5.10.0/VTK/IO;D:/VTKproj/vtk-5.10.0/VTK/Imaging;D:/VTKproj/vtk-5.10.0/VTK/Graphics;D:/VTKproj/vtk-5.10.0/VTK/GenericFiltering;D:/VTKproj/vtk-5.10.0/VTK/Filtering;D:/VTKproj/vtk-5.10.0/VTK/Common;D:/VTKproj/vtk-5.10.0/VTK/Utilities;D:/VTKproj/vtk-5.10.0/VTK/Common/Testing/Cxx;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtknetcdf/include;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtknetcdf/include;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtklibproj4;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtklibproj4;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/DICOMParser;D:/VTKproj/vtk-5.10.0/VTK/Utilities/DICOMParser;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkfreetype/include;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkfreetype/include;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/LSDyna;D:/VTKproj/vtk-5.10.0/VTK/Utilities/LSDyna;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/MaterialLibrary;D:/VTKproj/vtk-5.10.0/VTK/Utilities/MaterialLibrary;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkmetaio;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkmetaio;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/verdict;D:/VTKproj/vtk-5.10.0/VTK/Utilities/verdict;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkhdf5;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkhdf5;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkhdf5/src;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkhdf5/src;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkhdf5/hl/src;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkhdf5/hl/src;D:/VTKproj/vtk-5.10.0/VTK/Utilities/utf8/source;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkalglib;D:/VTKproj/vtk-5.10.0/VTK/Utilities/ftgl/src;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/ftgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>D:\OpenCV2.2\include;D:\VTKproj\CImg-1.5.0;D:/VTKproj/vtk-5.10.0/VTK/vs2010;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Common;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities;D:/VTKproj/vtk-5.10.0/VTK/vs2010/VolumeRendering;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Rendering;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Charts;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Chemistry;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkalglib;D:/VTKproj/vtk-5.10.0/VTK/Infovis;D:/VTKproj/vtk-5.10.0/VTK/Geovis;D:/VTKproj/vtk-5.10.0/VTK/Views;D:/VTKproj/vtk-5.10.0/VTK/VolumeRendering;D:/VTKproj/vtk-5.10.0/VTK/Hybrid;D:/VTKproj/vtk-5.10.0/VTK/Widgets;D:/VTKproj/vtk-5.10.0/VTK/Rendering;D:/VTKproj/vtk-5.10.0/VTK/Charts;D:/VTKproj/vtk-5.10.0/VTK/Chemistry;D:/VTKproj/vtk-5.10.0/VTK/Rendering/Testing/Cxx;D:/VTKproj/vtk-5.10.0/VTK/IO;D:/VTKproj/vtk-5.10.0/VTK/Imaging;D:/VTKproj/vtk-5.10.0/VTK/Graphics;D:/VTKproj/vtk-5.10.0/VTK/GenericFiltering;D:/VTKproj/vtk-5.10.0/VTK/Filtering;D:/VTKproj/vtk-5.10.0/VTK/Common;D:/VTKproj/vtk-5.10.0/VTK/Utilities;D:/VTKproj/vtk-5.10.0/VTK/Common/Testing/Cxx;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtknetcdf/include;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtknetcdf/include;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtklibproj4;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtklibproj4;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/DICOMParser;D:/VTKproj/vtk-5.10.0/VTK/Utilities/DICOMParser;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkfreetype/include;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkfreetype/include;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/LSDyna;D:/VTKproj/vtk-5.10.0/VTK/Utilities/LSDyna;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/MaterialLibrary;D:/VTKproj/vtk-5.10.0/VTK/Utilities/MaterialLibrary;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkmetaio;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkmetaio;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/verdict;D:/VTKproj/vtk-5.10.0/VTK/Utilities/verdict;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkhdf5;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkhdf5;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkhdf5/src;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkhdf5/src;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/vtkhdf5/hl/src;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkhdf5/hl/src;D:/VTKproj/vtk-5.10.0/VTK/Utilities/utf8/source;D:/VTKproj/vtk-5.10.0/VTK/Utilities/vtkalglib;D:/VTKproj/vtk-5.10.0/VTK/Utilities/ftgl/src;D:/VTKproj/vtk-5.10.0/VTK/vs2010/Utilities/ftgl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opencv_core220.lib;opencv_highgui220.lib;opencv_video220.lib;opencv_ml220.lib;opencv_legacy220.lib;opencv_imgproc220.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <StackReserveSize>10000000</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="imageProcess.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mainTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CImgInvoke.h" />
+    <ClInclude Include="imageProcess.h" />
+    <ClInclude Include="ImageSegmentor.h" />
+    <ClInclude Include="timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D:\OpenCV2.2\lib\opencv_calib3d220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_contrib220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_core220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_features2d220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_ffmpeg220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_flann220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_gpu220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_highgui220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_imgproc220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_legacy220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_ml220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_objdetect220d.lib" />
+    <Library Include="D:\OpenCV2.2\lib\opencv_video220d.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\LSDyna.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkalglib.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkCommon.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkDICOMParser.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkFiltering.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkGenericFiltering.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkGeovis.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkGraphics.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkhdf5.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkHybrid.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkImaging.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkInfovis.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkIO.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkjpeg.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkmyCommon.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkmyImaging.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkmyUnsorted.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkNetCDF.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkpng.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkproj4.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkRendering.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkViews.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkVolumeRendering.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkWidgets.lib" />
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkzlib.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

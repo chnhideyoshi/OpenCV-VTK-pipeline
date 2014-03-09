@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{1f87b082-21ba-4de5-a857-eb351124428b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\opencv">
+      <UniqueIdentifier>{4738993d-7a25-4204-a66b-fcb9663d6e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\vtk">
+      <UniqueIdentifier>{3ef09e2f-ad81-4495-b106-cd721111ffed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imageProcess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imageProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSegmentor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CImgInvoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D:\OpenCV2.2\lib\opencv_gpu220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_contrib220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_legacy220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_features2d220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_objdetect220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_calib3d220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_highgui220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_ffmpeg220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_video220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_imgproc220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_ml220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_flann220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\OpenCV2.2\lib\opencv_core220d.lib">
+      <Filter>libs\opencv</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkGeovis.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkViews.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkInfovis.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkmyUnsorted.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkWidgets.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkHybrid.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkVolumeRendering.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkRendering.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkGenericFiltering.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkGraphics.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkIO.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkmyImaging.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkImaging.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkFiltering.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkmyCommon.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkCommon.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkNetCDF.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkhdf5.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkproj4.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkalglib.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\LSDyna.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkDICOMParser.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkpng.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkjpeg.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+    <Library Include="D:\VTKproj\vtk-5.10.0\VTK\vs2010\bin\MinSizeRel\vtkzlib.lib">
+      <Filter>libs\vtk</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+﻿Build started 2014/2/28 18:41:05.
+     1>Project "F:\workspacecsharp\C++Proj\opencvTest\SinglePicProc\SinglePicProc.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\SinglePicProc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\workspacecsharp\C++Proj\opencvTest\Release\SinglePicProc.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\SinglePicProc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\workspacecsharp\C++Proj\opencvTest\Release\SinglePicProc.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\workspacecsharp\C++Proj\opencvTest\Release\SinglePicProc.lib" /MACHINE:X86 Release\main.obj
+         D:\OpenCV2.2\lib\opencv_calib3d220d.lib
+         D:\OpenCV2.2\lib\opencv_contrib220d.lib
+         D:\OpenCV2.2\lib\opencv_core220d.lib
+         D:\OpenCV2.2\lib\opencv_features2d220d.lib
+         D:\OpenCV2.2\lib\opencv_ffmpeg220d.lib
+         D:\OpenCV2.2\lib\opencv_flann220d.lib
+         D:\OpenCV2.2\lib\opencv_gpu220d.lib
+         D:\OpenCV2.2\lib\opencv_highgui220d.lib
+         D:\OpenCV2.2\lib\opencv_imgproc220d.lib
+         D:\OpenCV2.2\lib\opencv_legacy220d.lib
+         D:\OpenCV2.2\lib\opencv_ml220d.lib
+         D:\OpenCV2.2\lib\opencv_objdetect220d.lib
+         D:\OpenCV2.2\lib\opencv_video220d.lib
+         Generating code
+         Finished generating code
+         SinglePicProc.vcxproj -> F:\workspacecsharp\C++Proj\opencvTest\Release\SinglePicProc.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\workspacecsharp\C++Proj\opencvTest\Release\SinglePicProc.exe;#1" /manifest Release\SinglePicProc.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\SinglePicProc.unsuccessfulbuild".
+         Touching "Release\SinglePicProc.lastbuildstate".
+     1>Done Building Project "F:\workspacecsharp\C++Proj\opencvTest\SinglePicProc\SinglePicProc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71
